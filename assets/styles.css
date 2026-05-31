@@ -352,3 +352,22 @@
   text-transform: uppercase;
   color: #fff;
 }
+.case {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  width: 1218px;
+  height: 325px;
+}
+.case__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+.case__left-absolute {
+  position: absolute;
+  bottom: -71px;
+
+  left: -56px;
+  z-index: -1;
+}
