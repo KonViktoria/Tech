@@ -68,6 +68,8 @@
   gap: 8px;
   padding: 12px;
   flex-wrap: wrap;
+  width: 500px;
+  z-index: 5;
 }
 .header-navigation__left-nav-list li ul li {
   width: 25%;
@@ -142,12 +144,41 @@
   transform: translateY(-50%);
 }
 .hero__left-title {
-  font-size: 14px;
+  font-family: Inter;
   font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #5c5cff;
+}
+.hero__left-info p {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413e52;
+}
+.hero__left-info span {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 19.5px;
+  color: #868297;
 }
 .hero__left-title-main {
-  font-size: 40px;
+  font-family: Inter;
   font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 62.4px;
+  letter-spacing: 1px;
+  color: #413e52;
 }
 .hero__right {
   width: 50%;
@@ -168,4 +199,77 @@
   top: -48px;
   right: -96px;
   z-index: -1;
+}
+.recent {
+  max-width: 1218px;
+  margin: 0 auto;
+}
+.recent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 0 40px;
+  border-bottom: 1px solid #ebeaf2;
+  padding-bottom: 16px;
+  margin-bottom: 40px;
+}
+.recent__header-title {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413e52;
+}
+.recent__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.article-card {
+  border: 1px solid #ebeaf2;
+  border-radius: 8px;
+  padding: 24px;
+}
+.article-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.article-card__info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.article-card__category {
+  margin-top: 32px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #5c5cff;
+}
+.article-card__author {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 13px;
+  line-height: 19.5px;
+  letter-spacing: 0%;
+  color: #868297;
+}
+.article-card__title {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #413e52;
 }
